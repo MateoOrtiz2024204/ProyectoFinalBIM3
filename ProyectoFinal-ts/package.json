@@ -1,19 +1,21 @@
 {
-  "name": "Ejemplo Ts",
+  "name": "proyecto-final-ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Gestion Hospitalaria",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "tsx src/index.ts",
-    "test": ""
+    "dev": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.0"
+  },
   "devDependencies": {
-    "@types/node": "^25.9.3",
-    "ts-node": "^10.9.2",
+    "@types/node": "^22.10.5",
     "tsx": "^4.22.4",
-    "typescript": "^6.0.3"
+    "typescript": "^5.7.2"
   }
 }
